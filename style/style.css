@@ -137,18 +137,62 @@ div .img{
 .list{
     color:white;
 }
-@media(max-width:768px){
+/* MOBILE RESPONSIVE */
 
-    .main{
-        flex-direction:column;
+@media (max-width:768px){
+
+    h2{
+        font-size:32px;
+        text-align:center;
     }
 
-    h1{
+    .para1{
+        text-align:center;
+        font-size:16px;
+    }
+
+    .sub{
+        text-align:center;
+    }
+
+    .list ul{
+        text-align:center;
+        padding:0;
+    }
+
+    .inline{
+
+        display:flex;
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:20px;
+    }
+
+    .img{
+        width:280px;
+        height:auto;
+    }
+
+    .linkdin,
+    .Git{
+        width:200px;
+    }
+
+    nav{
+        display:flex;
+        justify-content:center;
+        gap:15px;
+        flex-wrap:wrap;
+    }
+
+    #dev{
         font-size:40px;
     }
 
-    img{
-        max-width:300px;
-        height:auto;
+    .P2{
+        font-size:38px;
     }
 }
