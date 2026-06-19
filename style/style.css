@@ -137,3 +137,18 @@ div .img{
 .list{
     color:white;
 }
+@media(max-width:768px){
+
+    .main{
+        flex-direction:column;
+    }
+
+    h1{
+        font-size:40px;
+    }
+
+    img{
+        max-width:300px;
+        height:auto;
+    }
+}
