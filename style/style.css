@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(17,24,39);
+}
+#dev{
+    color:rgb(255, 255, 255);
+    font-size: 48px;
+    width:50%;
+}
+#hub{
+    color:#0000ff;
+    font-size:50px;
+    width:50%;
+}
+nav{
+    display:flex;
+    margin-left:680px;
+    margin-top:35px;
+    gap:20px;
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    
+}
+section{
+    display: flex;
+    margin-left:25px;
+}
+.P1{
+    color:rgb(255, 255, 255);
+    margin-left: 25px;
+    font-size:35px;
+    width:40%;
+}
+.P2{
+    color:#0000ff;
+    margin-left: 25px;
+    font-size:35px;
+    width:40%;
+}
+.para1{
+    color:rgb(255, 255, 255);
+    font-size:20px;
+    margin-left:25px;
+    width:40%;
+}
+ .linkdin{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    height:50px;
+    width:210px;
+    margin-left: 25px;
+    padding:10px;
+    font-size:20px;
+    border-radius: 15px;
+    padding:10px;
+}
+.linkdin a{
+    color :white;
+    text-decoration:none;
+}
+.Git{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    height:50px;
+    width:210px;
+    padding:10px;
+    font-size:20px;
+    margin-left: 35px;
+    border-radius: 15px;
+
+}
+.Git a{
+    text-decoration: none;
+    color:white;
+}
+.inline{
+    display: flex;
+    gap:20px;
+    flex-wrap:nowrap;
+}
+div .img{
+    height:autopx;
+    width:400px;
+    max-width: 100%;
+    margin-left: 210px;
+    margin-top:-330px;
+    border-radius: 50px;
+    box-shadow: around aqua;
+    animation: float 6s ease-in-out infinite;
+    
+    
+}
+@keyframes float{
+    0%{
+        transform: translate(0,0);
+    }
+
+    25%{
+        transform: translate(5px,-10px);
+    }
+
+    50%{
+        transform: translate(0,-15px);
+    }
+
+    75%{
+        transform: translate(-5px,-10px);
+    }
+
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+.container{
+    height:50px;
+    width:1200px;
+    background-color: rgb(0, 7, 41);
+    margin-left: 25px;
+}
+.link:hover{
+    height:50px;
+}
+.linkdin a:hover{
+   color:red;
+   width:30%
+
+
+}
+.Git a:hover{
+    color:rgb(230, 36, 36);
+}
+.sub{
+    margin-left: 25px;
+    color:#0000ff;
+}
+.list{
+    color:white;
+}
